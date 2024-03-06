@@ -3,18 +3,13 @@ import Navegacao from './components/Nacegacao/Navegacao'
 import Atracao from './components/Atracao/Atracao'
 
 function App() {
-    const components = [];
-    for(let i = 0; i <= 2; i++){
-      components.push(<Atracao key={i}/>)
     }
   return (
     <>
-      <Navegacao></Navegacao>
-      <div className='ctn-atracoes'>
-        {components}
+      <div>
         </div>
     </>
   )
-}
+
 
 export default App
